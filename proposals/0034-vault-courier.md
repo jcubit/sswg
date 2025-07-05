@@ -1,4 +1,4 @@
-# Solution name
+# VaultCourier
 
 * Proposal: [SSWG-0034](0034-vault-courier.md)
 * Authors: [Javier Cuesta](https://github.com/jcubit)
