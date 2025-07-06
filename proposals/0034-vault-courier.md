@@ -185,5 +185,4 @@ An alternative to building a Vault client with OpenAPI is to manually implement 
 While this method can work well, it comes with a few trade-offs:
 It typically ties the client to a specific HTTP transport. For example, SwiftVault uses URLSession, which limits its compatibility with Linux, an important consideration for server-side Swift development.
 It lacks built-in support for mocks, which can make development and testing more difficult.
-Manually maintaining a large and evolving API without OpenAPI can make it harder to keep the client up to date and well-documented.
-SwiftVault does appear to support many Vault features, which is commendable. I attempted to [reach out](https://github.com/jmccloud827/VaultSwift/issues/1) to the author to learn more but didn't receive a response.
+SwiftVault does appear to support many Vault features. However, manually maintaining a large and evolving API without OpenAPI can make it harder to keep the client up to date and well-documented.
